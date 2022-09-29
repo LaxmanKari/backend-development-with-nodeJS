@@ -1,0 +1,11 @@
+let ans =0; 
+
+for(let i =0; i<"23";i++){
+    ans++;
+    console.log(ans);
+} 
+// i < "23" //23 will be converted to 23
+
+console.log(ans);
+console.log(NaN === NaN) //FALSE
+console.log(NaN == NaN)//FALSE
